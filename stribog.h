@@ -1,12 +1,3 @@
-/*
- * Copyright (c) 2013 by sftp
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted.
- *
- * There's ABSOLUTELY NO WARRANTY, express or implied.
- */
-
 #ifndef _STRIBOG_H
 #define _STRIBOG_H
 

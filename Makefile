@@ -19,7 +19,7 @@ export E Q
 
 CC = gcc
 
-WARNINGS = -Wall
+WARNINGS = #-Wall
 CFLAGS   = -O3 $(WARNINGS)
 
 PROGS = stribog
