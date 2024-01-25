@@ -179,7 +179,7 @@ void stribog(struct stribog_ctx_t *ctx, u8 *message, u64 len)
 	u8 padding;
 
 	while (len >= BLOCK_SIZE) {
-		memcpy(m, message + len - BLOCK_SIZE, BLOCK_SIZE);
+		memcpy(m, message + len - BLOCK_SIZE, BLOCK_SIZE);//копирует блок кода равный BLOCK_SIZE
 
 		g_N(ctx->h, ctx->N, m);
 

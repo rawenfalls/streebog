@@ -64,19 +64,5 @@ int main(int argc, char *argv[])
 	printf("H^{256}: ");
 	print_hash(&ctx);
 
-	printf("\nMessage 2:\n");
-
-	init(&ctx, HASH512);
-	stribog(&ctx, message2, sizeof(message2));
-
-	printf("H^{512}: ");
-	print_hash(&ctx);
-
-	init(&ctx, HASH256);
-	stribog(&ctx, message2, sizeof(message2));
-
-	printf("H^{256}: ");
-	print_hash(&ctx);
-
 	return 0;
 }
